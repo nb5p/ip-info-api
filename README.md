@@ -90,7 +90,7 @@
 
 [https://1.1.1.1/cdn-cgi/trace](#address-2.21) 
 
-[https://check.torproject.org/api/ip](#address-2.22) 
+[https://check.torproject.org/api/ip](#address-2.22)    **(已失效)**
 
 [https://api.live.bilibili.com/xlive/web-room/v1/index/getIpInfo](#address-2.23)
 
@@ -1850,7 +1850,7 @@ kex=X25519MLKEM768
 
 &emsp;
 
-**地址22**：https://check.torproject.org/api/ip <a name="address-2.22"></a>
+**地址22**：https://check.torproject.org/api/ip <a name="address-2.22"></a>  **(已失效)**
 
 请求类型：GET
 
