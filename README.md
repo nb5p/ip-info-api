@@ -98,6 +98,8 @@
 
 [https://ipv4.gdt.qq.com/get_client_ip](#address-2.25)
 
+[https://uapis.cn/api/v1/network/myip](#address-2.26)
+
 3.只可通过IP查询信息
 
 [http://opendata.baidu.com/api.php?co=&resource_id=6006&oe=utf8&query=](#address-3.1) 
@@ -1968,6 +1970,43 @@ https://ipv4.gdt.qq.com/get_client_ip
 ```
 223.199.183.154
 ```
+
+&emsp;
+
+**地址26**: https://uapis.cn/api/v1/network/myip <a name="address-2.26"></a>
+
+请求类型：GET
+
+请求参数（可选）：source（值为 `commercial` 时返回更完整的位置信息）
+
+CORS跨域支持：是
+
+请求示例：
+
+```
+# 标准查询
+https://uapis.cn/api/v1/network/myip
+
+# 使用商业数据源
+https://uapis.cn/api/v1/network/myip?source=commercial
+```
+
+示例结果：
+
+```
+{
+  "ip": "23.132.203.77",
+  "beginip": "23.132.203.0",
+  "endip": "23.132.203.255",
+  "region": "美国 California Los Angeles",
+  "isp": "ATT-INTERNET4",
+  "asn": "AS7018",
+  "llc": "美国电话电报公司",
+  "latitude": 34.05223,
+  "longitude": -118.24368
+}
+```
+
 
 &emsp;
 
